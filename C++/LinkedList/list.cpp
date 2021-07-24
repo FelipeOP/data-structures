@@ -20,7 +20,7 @@ Node<T>::Node(T data)
 template <typename T>
 void Node<T>::_delete()
 {
-    this != NULL ? delete this : return;
+    delete this;
     amount--;
 }
 
